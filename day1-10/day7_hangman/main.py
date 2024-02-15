@@ -1,5 +1,4 @@
 #Step 5
-
 import random
 
 #TODO-1: - Update the word list to use the 'word_list' from hangman_words.py
@@ -16,7 +15,7 @@ lives = 6
 print(logo)
 
 #Testing code
-print(f'The solution is {chosen_word}.')
+#print(f'The solution is {chosen_word}.')
 
 #Create blanks
 display = []
@@ -46,6 +45,7 @@ while not end_of_game:
         if lives == 0:
             end_of_game = True
             print("You lose.")
+            print(f'The answer is {chosen_word}.')
 
     #Join all the elements in the list and turn it into a String.
     print(f"{' '.join(display)}")
