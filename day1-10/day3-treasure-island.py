@@ -1,4 +1,4 @@
-from playsound import playsound
+
 from test import print_message
 
 print('''
@@ -26,5 +26,5 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
-#print(print_message())
+print(print_message())
 print("Let's go!")
