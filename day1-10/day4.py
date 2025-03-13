@@ -19,7 +19,7 @@ print("You provided:", names_list)
 # split each name separated by a comma and create a list
 list_csv = names_list.split(", ")
 print("list csv:", list_csv)
-print("number of names -->", len(list_csv))
+print("number of names:", len(list_csv))
 
 number_people = len(list_csv)
 # print("list_csv:", list_csv)

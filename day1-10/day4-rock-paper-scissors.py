@@ -27,7 +27,7 @@ scissors = '''
 
 #Write your code below this line 👇
 import random
-import sys
+
 
 game_images = [rock, paper, scissors]
 print("\n")
